@@ -4,15 +4,158 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi comienzo con HTML y CSS - Boostrap</title>
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!--Css propio-->
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/efectoTiping.css">
+    <title>Mis primeros ejercicios con HTML/CSS</title>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">HTML/CSS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://nvergaraportfolio.netlify.app">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Ejercicio 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Ejercicio 2</a>
+              </li>
+
+              <li class="nav-item float-left">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Ejercicio 3</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+      <main class="container"> 
+
+
+       
+            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light ">
+              <div class="col-md-5 p-lg-5 mx-auto my-5 wrapper">
+                <h1 class="display-4 fw-normal typing">Mis primeros pasos</h1>
+                <p class="lead fw-normal">En estos ejercicios comencé a adentrarme en un mundo nuevo de creación, de frustración, pero también de una inmensa alegría al ver un trabajo terminado, que no serán perfectos, pero son míos</p>
+                
+              </div>
+              <div class="product-device shadow-sm d-none d-md-block"></div>
+              <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+            </div>
+          
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">Hamburguesa</h2>
+                  <p class="lead">Manejando tamaños y espacios</p>
+                </div>
+                <div class="bg-light shadow-sm mx-auto hamburguesa" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><a class="visitarHamb"  href="https://nvergarahamburguesa.netlify.app/">Visitar</a></div>
+              </div>
+              <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">Adopción Miau-Guau</h2>
+                  <p class="lead">Conociendo el display Flex</p>
+                </div>
+                <div class="bg-dark shadow-sm mx-auto adopcion" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><a href="https://nvergaratrabajo.netlify.app/" class="visitarAdop">Visitar</a></div>
+              </div>
+            </div>
+          
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+              <div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+            </div>
+          
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+              <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+            </div>
+          
+            <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+              <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+              <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+                  <h2 class="display-5">Another headline</h2>
+                  <p class="lead">And an even wittier subheading.</p>
+                </div>
+                <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+              </div>
+            </div>
+         
 
 
 
 
-<script src="./js/script.js"></script>
+
+      </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+       <!--JS propio-->
+       <script src="./js/script.js"></script>
+
+
 </body>
 </html>

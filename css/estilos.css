@@ -1,0 +1,47 @@
+/*Estilos del navbar*/
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  /*Fondo de la hamburguesa*/
+.hamburguesa{
+    background-image: url("../img/hamburguesa.png");
+    background-size: cover;
+    background-position: center;
+}
+.visitarHamb{
+    position: relative;
+    top: 253px;
+}
+.visitar:visited{
+    color: none;
+}
+  /*Fondo de adopcion*/
+.adopcion{
+  background-image: url("../img/adopcion.png");
+    background-size: cover;
+    background-position: center;
+}
+.visitarAdop{
+  position: relative;
+  top: 256px;
+}
+
+
+  /* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+
+
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
