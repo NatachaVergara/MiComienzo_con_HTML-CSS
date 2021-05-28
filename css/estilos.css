@@ -1,12 +1,15 @@
-/*Estilos del navbar*/
 
-.bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
+  /* Show it is fixed to the top */
+  body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
   }
+
+/*Fondo del navbar*/
+.navbar{
+  background-image: linear-gradient(to right, #581845, #900c3f,#c70039,#FF5733,#FFC300);
+}
+
   /*Fondo de la hamburguesa*/
 .hamburguesa{
     background-image: url("../img/hamburguesa.png");
@@ -16,6 +19,8 @@
 .visitarHamb{
     position: relative;
     top: 253px;
+    text-decoration: none;
+    color: black;
 }
 .visitar:visited{
     color: none;
@@ -29,16 +34,46 @@
 .visitarAdop{
   position: relative;
   top: 256px;
+  text-decoration: none;
+  color: black;
 }
+  /*Fondo de blog*/
 
+  .blog{
+      background-image: url("../img/blog.png");
+      background-size: cover;
+      background-position: center;
+  }
+  .visitarBlog{
+    position: relative;
+    top: 253px;
+    left: 58px;
+    text-decoration: none;
+    color: black;
 
-  /* Show it is fixed to the top */
-body {
-    min-height: 75rem;
-    padding-top: 4.5rem;
   }
 
+/*Fondo de formulario*/
+.form{
+background-image: url("../img/formulario.png");
+background-size: cover;
+background-position:0%;
+}
+.visitarForm{
+  position: relative;
+  top:270px;
+  text-decoration: none;
+  color: black;
+}
+footer{
+  
+    background-image: linear-gradient(to right, #581845, #900c3f,#c70039,#FF5733,#FFC300);
 
+}
+footer a{
+  text-decoration:none;
+  
+}
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
