@@ -85,11 +85,11 @@ footer a{
  
 } 
 
-@media screen and (max-width: 500px) and (orientation: landscape)
-{
+@media screen and (max-width: 500px) {
   .fondo{
     
-    background-size: 100px 50px;
+    background-size: 100px 65px;
+    background-position: bottom;
   
   }
   
