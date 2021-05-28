@@ -10,6 +10,16 @@
   background-image: linear-gradient(to right, #581845, #900c3f,#c70039,#FF5733,#FFC300);
 }
 
+.typing{
+  text-shadow: 0 0 3px #FF0000;
+}
+.fondo{
+  background-image: url("../img/HTML5-CSS3-1.png");
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+
+}
+
   /*Fondo de la hamburguesa*/
 .hamburguesa{
     background-image: url("../img/hamburguesa.png");
@@ -72,8 +82,21 @@ footer{
 }
 footer a{
   text-decoration:none;
+ 
+} 
+
+@media screen and (max-width: 500px) and (orientation: landscape)
+{
+  .fondo{
+    
+    background-size: 100px 50px;
   
+  }
+  
+
 }
+
+
 
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
