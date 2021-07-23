@@ -20,6 +20,20 @@
 
 }
 
+/*Fondo libro*/
+.libro{
+  background-image: url("../img/libro.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+.visitarLibro{
+  position: relative;
+  top: 40px;
+  text-decoration: none;
+  color: black;
+}
   /*Fondo de la hamburguesa*/
 .hamburguesa{
     background-image: url("../img/hamburguesa.png");
