@@ -31,6 +31,7 @@
 .visitarLibro{
   position: relative;
   top: 40px;
+  font-weight: bold;
   text-decoration: none;
   color: black;
 }
@@ -43,6 +44,7 @@
 .visitarHamb{
     position: relative;
     top: 253px;
+    font-weight: bold;
     text-decoration: none;
     color: black;
 }
@@ -58,6 +60,7 @@
 .visitarAdop{
   position: relative;
   top: 256px;
+  font-weight: bold;
   text-decoration: none;
   color: black;
 }
@@ -72,6 +75,7 @@
     position: relative;
     top: 253px;
     left: 58px;
+    font-weight: bold;
     text-decoration: none;
     color: black;
 
@@ -86,9 +90,30 @@ background-position:0%;
 .visitarForm{
   position: relative;
   top:270px;
+  font-weight: bold;
   text-decoration: none;
   color: black;
 }
+
+/*Fondo Landing Page*/
+  /*Fondo de la hamburguesa*/
+.landingPage{
+    background-image: url("../img/landingPage.png");
+    background-size: cover;
+    background-position: center;
+}
+
+ .visitarLandingPage{
+    position: relative;
+    top: 253px;
+    left: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+  }
+
+
 footer{
   
     background-image: linear-gradient(to right, #581845, #900c3f,#c70039,#FF5733,#FFC300);
@@ -105,14 +130,10 @@ footer a{
     background-size: 100px 65px;
     background-position: bottom;
   
-  }
-  
-
+  } 
 }
 
-
-
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
